@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#000814"
+    android:padding="24dp">
+
+    <com.jarvis.assistant.JarvisHudView
+        android:id="@+id/hudView"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginBottom="24dp" />
+
+    <TextView android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JARVIS ONLINE"
+        android:textColor="#66E0FF"
+        android:textSize="16sp"
+        android:letterSpacing="0.15"
+        android:fontFamily="monospace"
+        android:layout_marginBottom="24dp" />
+
+    <Button android:id="@+id/listenButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LISTEN"
+        android:backgroundTint="#0A3D5C"
+        android:textColor="#00FFF7"
+        android:layout_marginBottom="12dp" />
+
+    <ToggleButton android:id="@+id/alwaysListenToggle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="ALWAYS LISTENING: ON"
+        android:textOff="ALWAYS LISTENING: OFF"
+        android:backgroundTint="#0A3D5C"
+        android:textColor="#00FFF7" />
+
+</LinearLayout>
